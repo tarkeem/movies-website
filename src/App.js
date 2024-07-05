@@ -6,7 +6,6 @@ import MovieDetails from './components/MovieDetails'
 import axios from 'axios'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-
 function App() {
   const [movies, setMovies] = useState([])
   const [pageCount, setpageCount] = useState(0)
